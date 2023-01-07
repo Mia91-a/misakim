@@ -1,0 +1,76 @@
+
+body{
+  background-color: #f9f9f9;
+  font-family: Arial, Helvetica, sans-serif;
+  margin:0;
+  padding:0;
+}
+
+.header {
+  box-sizing: border-box ;
+  width:100%;
+  padding:0;
+  height:auto;
+  margin:0;
+  background:#514340;
+  text-align: center;
+}
+
+.author{
+  text-indent: 50px;
+}
+
+h1{
+  color:#f9f9f9;
+  font-family:'Lato', sans-serif;  
+  font-weight: 300; 
+  line-height: 58px; 
+  margin: 0;
+}
+
+h2 {
+  color:#514340;
+  text-align:center;
+  font-family:'Lato', sans-serif; 
+  font-weight: 300;
+  line-height: 30px; 
+  margin: 0 0 30px;
+}
+
+h3 {
+  color:#514340;
+  font-family:'Lato', sans-serif; 
+  margin: 30 50 50px;
+  text-indent: 50px;
+}
+
+
+
+p {
+  color:black;
+  text-align:center;
+  font-family:'Lucida Sans', Arial, sans-serif;
+}
+
+.external:link, .external:visited {
+  color:#514340;
+  background-color: #f9f9f9;
+  border:solid 2px #514340;
+  text-decoration: none;
+  padding: 7px;
+  margin:7px;
+  font-family:'Lucida Sans', Arial, sans-serif;
+}
+.external:hover, .external:active{
+  color: #f9f9f9;
+  background-color: #514340;
+  text-decoration: none;
+  padding:7px;
+  margin:7px;
+  font-family:'Lucida Sans', Arial, sans-serif;
+}
+
+.author:link, .author:visited {
+  text-decoration: underline;
+  color: #514340;
+}
